@@ -1,0 +1,12 @@
+---
+Checks: 'bugprone-*,modernize-*,performance-*,readability-*'
+
+HeaderFilterRegex: '^/mnt/data/Data/CPP_General/Template_Stuff/string/'
+
+SystemHeaders: false
+
+WarningsAsErrors: '*'
+
+CheckOptions:
+  - key:             modernize-use-trailing-return-type
+    value:           'true'
