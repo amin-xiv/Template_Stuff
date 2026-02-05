@@ -3,6 +3,7 @@
 #include "string.hpp"
 #include <cstring>
 #include <stdexcept>
+#include <cstddef>
 
 string::string() {
     m_data = new char[1];
